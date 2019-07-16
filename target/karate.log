@@ -1,0 +1,41 @@
+18:36:24.463 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class TodosTest
+18:36:25.153 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /Users/waldovp/repos/todosapitest/target/test-classes/examples/users/users.feature
+18:36:25.259 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /Users/waldovp/repos/todosapitest/target/test-classes/todos.feature
+18:36:26.657 [main] INFO  com.intuit.karate.ScriptBridge - karate.env system property was: null 
+18:36:29.216 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 1971
+18:36:29.770 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 188
+18:36:29.934 [main] INFO  com.intuit.karate.ScriptBridge - karate.env system property was: null 
+18:36:31.481 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 1280
+18:36:31.525 [main] INFO  com.intuit.karate.StepDefs - [print] created id is: 11
+18:36:31.902 [main] INFO  com.intuit.karate.ScriptBridge - karate.env system property was: null 
+18:36:33.835 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 1900
+18:41:10.431 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class TodosTest
+18:41:10.776 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /Users/waldovp/repos/todosapitest/target/test-classes/examples/users/users.feature
+18:41:10.881 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /Users/waldovp/repos/todosapitest/target/test-classes/todos.feature
+18:41:12.514 [main] INFO  com.intuit.karate.ScriptBridge - karate.env system property was: null 
+18:41:14.660 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 1576
+18:41:15.197 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 191
+18:41:15.354 [main] INFO  com.intuit.karate.ScriptBridge - karate.env system property was: null 
+18:41:16.868 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 1358
+18:41:16.926 [main] INFO  com.intuit.karate.StepDefs - [print] created id is: 11
+18:41:17.322 [main] INFO  com.intuit.karate.ScriptBridge - karate.env system property was: null 
+18:41:18.155 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 789
+18:41:42.500 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class TodosTest
+18:41:42.795 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /Users/waldovp/repos/todosapitest/target/test-classes/examples/users/users.feature
+18:41:42.878 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /Users/waldovp/repos/todosapitest/target/test-classes/todos.feature
+18:41:44.419 [main] INFO  com.intuit.karate.ScriptBridge - karate.env system property was: null 
+18:41:46.485 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 1498
+18:41:46.982 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 170
+18:41:47.131 [main] INFO  com.intuit.karate.ScriptBridge - karate.env system property was: null 
+18:41:48.509 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 1221
+18:41:48.545 [main] INFO  com.intuit.karate.StepDefs - [print] created id is: 11
+18:41:48.733 [main] INFO  com.intuit.karate.ScriptBridge - karate.env system property was: null 
+18:41:49.544 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 764
+19:29:06.621 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class TodosTest
+19:29:07.045 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /Users/waldovp/repos/todosapitest/target/test-classes/todos.feature
+19:29:08.952 [main] INFO  com.intuit.karate.ScriptBridge - karate.env system property was: null 
+19:29:11.190 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 1670
+19:57:56.189 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class TodosTest
+19:57:56.830 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /Users/waldovp/repos/todosapitest/target/test-classes/todos.feature
+19:57:59.920 [main] INFO  com.intuit.karate.ScriptBridge - karate.env system property was: null 
+19:58:06.621 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 5547
