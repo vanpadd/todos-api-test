@@ -25,7 +25,7 @@
         <module name="todosapitest" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="todosapitest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
