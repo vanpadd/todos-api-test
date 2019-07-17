@@ -9,4 +9,5 @@ out
 gen
 .gitignore
 .idea/markdown-navigator/
+target
 target/generated-test-sources/

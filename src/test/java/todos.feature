@@ -6,7 +6,6 @@ Feature: Test CRUD on Todos rest API
     Then status 200
     And assert response.length == 200
 
-
   Scenario: Verify a to-do is returned successfully
     Given url 'https://jsonplaceholder.typicode.com/todos/25'
     When method GET
@@ -14,32 +13,16 @@ Feature: Test CRUD on Todos rest API
     And match response.id == '25'
 
   Scenario: Verify a new to-do is added successfully
-    * def payload1 =
-    """
-    {
-	"userId": 11,
-	"id": 201,
-	"title": "suscipit repellat esse quibusdam voluptatem incidunt",
-	"completed": true
-    }
-    """
+    * def newTodo = read('classpath:data/newTodo.json')
     Given url 'https://jsonplaceholder.typicode.com/todos'
-    And request payload1
+    And request newTodo
     When method POST
     Then status 201
 
   Scenario: Verify a to-do is updated successfully
-    * def payload2 =
-    """
-    {
-	"userId": 1,
-	"id": 20,
-	"title": "ullam nobis libero sapiente ad optio sint",
-	"completed": false
-    }
-    """
+    * def updateTodo = read('classpath:data/updateTodo.json')
     Given url 'https://jsonplaceholder.typicode.com/todos/20'
-    And request payload2
+    And request updateTodo
     When method PUT
     Then status 200
 
