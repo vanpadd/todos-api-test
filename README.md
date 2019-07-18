@@ -38,8 +38,12 @@ matching deeply nested objects. One of the interesting challenges was to figure 
 arrays/chunks and save them to variables for use in later steps. Further challenges as part of the experimentation process 
 was to call a custom java method and integrate it as part of a scenario (as depicted in the last scenario).
 
-### To run the test
+### Getting started
+
+Karate requires Java 8 (at least version 1.8.0_112 or greater) and then either Maven, Gradle, Eclipse or IntelliJ to be installed.
+
+#### To run the test using Maven
+
 ```
 mvn clean test
 ```
-
