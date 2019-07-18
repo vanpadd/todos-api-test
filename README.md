@@ -1,6 +1,6 @@
 # todosapitest
 
-This repository is a POC on using Karate DSL as a Rest API test automation tool to test the todos Rest API as defined in [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com/) 
+This repository is a POC on using Karate DSL as a Rest API test automation tool to test the todos Rest API as defined in [JSONPlaceholder](https://jsonplaceholder.typicode.com/) 
 
 ### What does the framework do and how does it work?
 
@@ -26,7 +26,8 @@ cucumber reporting library which is in line with existing reporting used as part
 * Follow the BDD approach by creating user stories to showcase the scenarios, then incorporating a set of acceptance criteria’s. 
 * Based on the above generate a set of high level test scripts in Gherkin that is understandable for everyone. 
 * Run the tests such that it fails initially, commit, then refactor the test scripts until it passes. 
-* Apply any necessary code/feature abstractions to remove repeatability and ensure the tests are agnostic such that no hardcoded test data is present in feature file to allow for scalability.
+* Apply any necessary code/feature abstractions to remove repeatability/duplication.
+* Ensure the scenarios are agnostic and data driven to allow for scalability.
 
 ### Lessons and challenges
 
