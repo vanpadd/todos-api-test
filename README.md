@@ -1,4 +1,4 @@
-# todosapitest
+# todos-api-test
 
 This repository is a POC on using Karate DSL as a Rest API test automation tool to test the todos Rest API as defined in [JSONPlaceholder](https://jsonplaceholder.typicode.com/) 
 
